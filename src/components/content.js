@@ -1,7 +1,9 @@
 import React from 'react'
 import './Nav.css'
 import {StaticImage } from 'gatsby-plugin-image';
+ 
 import { Link } from 'gatsby';
+ 
  
 export const Content = () => {
     return (
@@ -47,7 +49,7 @@ export const Content = () => {
             Learn more
           </Link>
         </div>
-      
+         
       </div>
     </div>
 

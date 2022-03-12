@@ -14,7 +14,7 @@ export const Art = () => {
             </span>
             <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
           </h2>
-          <p className="text-gray-700 list font-bold leading-9 lg:text-sm lg:max-w-md">
+          <p className="text-gray-700 text-black font-bold leading-9 lg:text-sm lg:max-w-md">
             "Class is dead", says Foucault; however, according to Reicher, it is
             not so much class that is dead, but rather the absurdity, and some
             would say the paradigm, of class. However, the subject is interpolated

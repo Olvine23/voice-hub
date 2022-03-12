@@ -54,16 +54,16 @@ export const Content = () => {
 //         />
 //       </div>
 //     </div>
-      <div className="w-full lg:mt-8 mt-0  px-4 py-16 mx-auto sm:max-w-xl   bg-gradient-to-r from-green-500 via-black to-gray-900 lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
+      <div className="w-full lg:mt-8 mt-0  px-4 py-16 mx-auto sm:max-w-xl    lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
         <div className="grid gap-5 row-gap-0 lg:grid-cols-2">
           <div className="flex flex-col justify-center ">
             <div className="max-w-xl mb-4">
               <h2  className="side max-w-lg mb-6  leading-9 lg:text-4xl font-bold line- text-gray-900 text-2xl sm:leading-none">
-                Release <span className='text-white'>your</span> <span className='text-white'>thoughts</span> ,
+                Relea your thoughts,
                 <br className="hidden md:block" />
-                <span className='text-blue-200'>ease your feels,</span> <br /> connect <span className="text-blue-200"> with the world </span> <span className='text-white'>through</span>  <span className='text-white'>art</span>  <span className='animate-pulse'>🎙️ 🌍</span>
+                ease your feels, <br /> connect with the world through art  <span className='animate-pulse'>🎙️ 🌍</span>
               </h2>
-              <p className="text-base side move font-serif  text-white text-sm">
+              <p className="text-base side move font-serif  text-sm">
                  Make your talent known , showcase your ability, gain recognition, connect 
                  with your circle and fulfill your purpose. <span className='font-bold list'>  Poet, writer, singer or drawer </span>, any form of art aims towards sending a message to the society.
                  You matter, your voice matters, speak up!! 
@@ -115,8 +115,8 @@ export const Content = () => {
           </div> 
           <div>
             <StaticImage
-              className="object-cover w-full  h-56 rounded shadow-lg sm:h-96"
-              src="../images/logo.png"
+              className="object-cover w-full  h-56 rounded   sm:h-96"
+              src="../images/writer-removebg.png"
               alt=""
             />
           </div>

@@ -23,7 +23,7 @@ export const Art = () => {
           </p>
         </div>
         <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-auto sm:row-gap-6 sm:grid-cols-2">
-          <Link to= "/content" aria-label="View Item">
+          
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <StaticImage
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
@@ -39,8 +39,8 @@ export const Art = () => {
                 </p>
               </div>
             </div>
-          </Link>
-          <a href="/" aria-label="View Item">
+        
+          
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <StaticImage
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
@@ -58,8 +58,8 @@ export const Art = () => {
                 </p>
               </div>
             </div>
-          </a>
-          <a href="/" aria-label="View Item">
+          
+           
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <StaticImage
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
@@ -76,8 +76,8 @@ export const Art = () => {
                 </p>
               </div>
             </div>
-          </a>
-          <a href="/" aria-label="View Item">
+          
+           
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <StaticImage
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
@@ -95,7 +95,7 @@ export const Art = () => {
                 </p>
               </div>
             </div>
-          </a>
+           
         </div>
         <div className="text-center">
           <a

@@ -15,7 +15,7 @@ export const Content = () => {
               <br className="hidden md:block" />
               ease your feels, <br /> connect with the world through art  <span className='animate-pulse'>🎙️ 🌍</span>
             </h2>
-            <p className="text-base side move p-3    text-xsm">
+            <p className="text-base side move p-3 font-bold text-xsm">
                Make your talent known , showcase your ability, gain recognition, connect 
                with your circle and fulfill your purpose. 
             </p>
@@ -32,17 +32,17 @@ export const Content = () => {
             alt=""
           />
         </div>
-        <div className="flex items-center lg:p-0 lg:mt-0 mt-7">
+        <div className="flex items-center uppercase  lg:p-0 lg:mt-0 mt-7">
           <a
             href="/"
-            className="link inline-flex items-center justify-center lg:h-12 h-6 lg:px-6 px-3 mr-3 lg:mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-deep-purple-accent-700 focus:shadow-outline rounded p-3 focus:outline-none hover:font-bold hover:bg-gray-800"
+            className="link inline-flex items-center justify-center lg:h-12 h-6 lg:px-6 px-3 mr-3 lg:mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-deep-purple-accent-700 focus:shadow-outline rounded p-5 focus:outline-none hover:font-bold hover:bg-gray-800"
           >
             Get started
           </a>
           <Link
             to="/more"
             aria-label=""
-            className="link inline-flex items-center justify-center lg:h-12 h-6 lg:px-6 px-3 mr-3 lg:mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-deep-purple-accent-700 focus:shadow-outline rounded p-3 focus:outline-none hover:font-bold hover:bg-gray-800"
+            className="link inline-flex items-center justify-center lg:h-12 h-6 lg:px-6 px-3 mr-3 lg:mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-deep-purple-accent-700 focus:shadow-outline rounded p-5 focus:outline-none hover:font-bold hover:bg-gray-800"
           >
             Learn more
           </Link>

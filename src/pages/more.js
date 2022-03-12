@@ -29,7 +29,7 @@ import {StaticImage} from 'gatsby-plugin-image';
               </div>
             </a>
             <h2 className="font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl">
-              <span className="text-green-600 inline-block mb-2">The brown fox</span>
+              <span className="text-gray-900 inline-block mb-2">Short Stories</span>
               <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
             </h2>
           </div>
@@ -57,7 +57,7 @@ import {StaticImage} from 'gatsby-plugin-image';
           <div className='bg-gray-900 text-white' >
             <StaticImage
               className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
-              src="../images/texture.jpg"
+              src="../images/writer.jpg"
               alt=""
             />
             <p className="mb-2 p-2 text-xl font-bold leading-none sm:text-2xl">
@@ -71,7 +71,7 @@ import {StaticImage} from 'gatsby-plugin-image';
           <div className='bg-gray-900 text-white'>
             <StaticImage
               className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
-              src="../images/umbrella.jpg"
+              src="../images/relax.jpg"
               alt=""
             />
             <p className="mb-2 p-2 text-xl font-bold leading-none sm:text-2xl">
@@ -85,7 +85,7 @@ import {StaticImage} from 'gatsby-plugin-image';
           <div className='bg-gray-900 text-white'>
             <StaticImage
               className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
-              src="../images/selfie.jpg"
+              src="../images/night.jpg"
               alt=""
             />
             <p className="mb-2 p-2 text-xl font-bold leading-none sm:text-2xl">
@@ -99,7 +99,7 @@ import {StaticImage} from 'gatsby-plugin-image';
           <div className='bg-gray-900 text-white'>
             <StaticImage
               className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
-              src="../images/peace.jpg"
+              src="../images/guitar.jpg"
               alt=""
             />
             <p className="mb-2 p-2 text-xl font-bold leading-none sm:text-2xl">

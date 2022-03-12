@@ -61,7 +61,7 @@ export const Content = () => {
               <h2  className="side max-w-lg mb-6  leading-9 lg:text-4xl font-bold line- text-gray-900 text-2xl sm:leading-none">
                 Release <span className='text-white'>your</span> <span className='text-white'>thoughts</span> ,
                 <br className="hidden md:block" />
-                <span className='text-blue-200'>ease your feels,</span> <br /> connect <span className="text-blue-200"> with the world </span> through <span className='text-white'>art</span>  <span className='animate-pulse'>🎙️ 🌍</span>
+                <span className='text-blue-200'>ease your feels,</span> <br /> connect <span className="text-blue-200"> with the world </span> <span className='text-white'>through</span>  <span className='text-white'>art</span>  <span className='animate-pulse'>🎙️ 🌍</span>
               </h2>
               <p className="text-base side move font-serif  text-white text-sm">
                  Make your talent known , showcase your ability, gain recognition, connect 

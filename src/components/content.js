@@ -54,16 +54,16 @@ export const Content = () => {
 //         />
 //       </div>
 //     </div>
-      <div className="w-full mt-8 px-4 py-16 mx-auto sm:max-w-xl   bg-gradient-to-r from-green-500 via-black to-gray-900 lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
+      <div className="w-full lg:mt-8 mt-0  px-4 py-16 mx-auto sm:max-w-xl   bg-gradient-to-r from-green-500 via-black to-gray-900 lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
         <div className="grid gap-5 row-gap-0 lg:grid-cols-2">
           <div className="flex flex-col justify-center ">
             <div className="max-w-xl mb-4">
-              <h2  className="side max-w-lg mb-6  leading-9 text-5xl font-bold line- text-gray-900 sm:text-4xl sm:leading-none">
-                Release your <span className='text-white'>thoughts</span> ,
+              <h2  className="side max-w-lg mb-6  leading-9 lg:text-4xl font-bold line- text-gray-900 text-2xl sm:leading-none">
+                Release <span className='text-white'>your</span> <span className='text-white'>thoughts</span> ,
                 <br className="hidden md:block" />
-                <span className='text-blue-200'>ease your feels,</span> <br /> connect with the <span className="text-blue-200"> world </span> through art <span className='animate-pulse'>🎙️ 🌍</span>
+                <span className='text-blue-200'>ease your feels,</span> <br /> connect <span className="text-blue-200"> with the world </span> through <span className='text-white'>art</span>  <span className='animate-pulse'>🎙️ 🌍</span>
               </h2>
-              <p className="text-base side move font-serif text-white md:text-lg">
+              <p className="text-base side move font-serif  text-white text-sm">
                  Make your talent known , showcase your ability, gain recognition, connect 
                  with your circle and fulfill your purpose. <span className='font-bold list'>  Poet, writer, singer or drawer </span>, any form of art aims towards sending a message to the society.
                  You matter, your voice matters, speak up!! 
@@ -72,14 +72,14 @@ export const Content = () => {
             <div className="flex items-center">
             <a
               href="/"
-              className="link inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none hover:font-bold hover:bg-gray-800"
+              className="link inline-flex items-center justify-center lg:h-12 h-6 lg:px-6 px-3 mr-3 lg:mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-deep-purple-accent-700 focus:shadow-outline rounded p-3 focus:outline-none hover:font-bold hover:bg-gray-800"
             >
               Get started
             </a>
             <Link
               to="/more"
               aria-label=""
-              className="link inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none hover:font-bold hover:bg-gray-800"
+              className="link inline-flex items-center justify-center lg:h-12 h-6 lg:px-6 px-3 mr-3 lg:mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-900 hover:bg-deep-purple-accent-700 focus:shadow-outline rounded p-3 focus:outline-none hover:font-bold hover:bg-gray-800"
             >
               Learn more
             </Link>

@@ -1,4 +1,5 @@
 import React from 'react';
+import {StaticImage} from 'gatsby';
 export const More = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -34,9 +35,9 @@ export const More = () => {
         </div>
         <div className="grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
           <div className='bg-gray-900 text-white'>
-            <img
+            <StaticImage
               className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
-              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="../images/writer.jpg"
               alt=""
             />
             <p className="mb-2 bg-gray-900 p-2 text-xl font-bold leading-none sm:text-2xl">

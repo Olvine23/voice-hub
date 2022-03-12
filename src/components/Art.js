@@ -27,7 +27,7 @@ export const Art = () => {
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <StaticImage
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="../images/aurora.jpg"
+                src="../images/alex.jpg"
                 alt=""
               />
               <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -44,7 +44,7 @@ export const Art = () => {
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <StaticImage
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="../images/moon.jpg"
+                src="../images/africanmodel.jpg"
                 alt=""
               />
               <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -63,7 +63,7 @@ export const Art = () => {
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <StaticImage
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="../images/one.jpg"
+                src="../images/another-writer.jpg"
                 alt=""
               />
               <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -81,7 +81,7 @@ export const Art = () => {
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <StaticImage
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="../images/two.jpg"
+                src="../images/cami.jpg"
                 alt=""
               />
               <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">

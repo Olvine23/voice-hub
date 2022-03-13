@@ -1,5 +1,9 @@
+@font-face {
+    font-family:'mine' ;
+    src: url('../styles/Futura\ Book\ font.ttf');
+}
 *{
-    font-family: Segoe UI;
+    font-family: 'mine';
 }
 .logo{
     height:120px;

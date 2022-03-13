@@ -160,7 +160,7 @@ export const Nav = ({pageTitle}) => {
                             <rect x="14" y="11" width="7" height="12" />
                           </svg>
                           <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                            Company
+                             Voice Hub
                           </span>
                         </a>
                       </div>

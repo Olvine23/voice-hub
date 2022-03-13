@@ -12,6 +12,20 @@ module.exports = {
         "gatsby-plugin-image",
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
+        {
+          resolve: "gatsby-plugin-firebase",
+          options: {
+            credentials: {
+              apiKey: "AIzaSyAleA7LgMX4PZ-MywNJpa_FpM1iiFJkgBU",
+              authDomain: "voice-hub-10dc9.firebaseapp.com",
+              databaseURL: "https://voice-hub-10dc9-default-rtdb.firebaseio.com",
+              projectId: "voice-hub-10dc9",
+              storageBucket: "voice-hub-10dc9.appspot.com",
+              messagingSenderId: "439162688350",
+              appId: "1:439162688350:web:be409371ee2a878ff9f5cf"
+            }
+          }
+        },
         
         
         {

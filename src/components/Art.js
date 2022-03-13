@@ -9,7 +9,7 @@ export const Art = () => {
           <h2 className="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
             <span className="inline-block mb-1 sm:mb-4">
               There is no must in art
-              <br className="hidden md:block" />
+               
               because art is free.
             </span>
             <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />

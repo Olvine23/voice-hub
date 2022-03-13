@@ -1,7 +1,7 @@
 import React from 'react'
 import '../components/Nav.css'
 import {StaticImage } from 'gatsby-plugin-image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+ 
  
 const  Content = () => {
     return (

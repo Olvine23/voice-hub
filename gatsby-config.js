@@ -13,6 +13,24 @@ module.exports = {
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
         {
+          resolve: `gatsby-plugin-offline`,
+          options: {
+            precachePages: [`/`,`/more`, `/blog/*`],
+          },
+        },
+        {
+          resolve: `gatsby-plugin-manifest`,
+          options: {
+            name: `Voice Hub`,
+            short_name: `writers-hub`,
+            start_url: `/`,
+            background_color: `#212121`,
+            theme_color: `#f39ca9`,
+            display: `standalone`,
+            icon: `src/images/logo.png`
+          },
+        },
+        {
           resolve: "gatsby-plugin-firebase",
           options: {
             credentials: {

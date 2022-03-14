@@ -3,11 +3,6 @@
  import '../styles/Merriweather-Regular.ttf';
  import {Content} from '../components/content'
   
- 
-
-
- 
- 
  const IndexPage = () => {
    return (
      <div >

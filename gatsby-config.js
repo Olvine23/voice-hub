@@ -1,3 +1,4 @@
+require("dotenv").config()
 module.exports = {
     siteMetadata: {
 
@@ -12,6 +13,12 @@ module.exports = {
         "gatsby-plugin-image",
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
+        {
+          resolve: 'gatsby-source-graphcms',
+          options: {
+          endpoint: process.env.GRAPHCMS_ENDPOINT,
+          },
+          },
         {
           resolve: `gatsby-plugin-offline`,
           options: {

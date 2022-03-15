@@ -1,15 +1,1 @@
-.post{
-    width:80%;
-    margin:0 auto;
-    line-height:2.5em;
-}
-
-@media screen and (max-width:500px){
-    .image{
-        width:100%;
-    }
-    .post{
-        width:100%;
-    }
-    
-}
+ 

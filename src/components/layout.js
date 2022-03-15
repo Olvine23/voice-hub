@@ -24,14 +24,14 @@ const Layout = ({pageTitle, children}) => {
   `
     )
   return (
-    <div className='bg-green-300'> 
+    <div> 
          <div>
       <title>OLVINE | {data.site.siteMetadata.title}</title>
       <Nav />
       
       
-      <main className="bg-gradient-to-r w-full from-gray-50 via-black to-gray-50">
-        <h1 className='text-red-500  text-center mt-0 font-bold text-2xl'>{pageTitle}</h1>
+      <main>
+        <h1 className='text-center mt-3 font-bold text-2xl'>{pageTitle}</h1>
         {children}
       </main>
     </div>

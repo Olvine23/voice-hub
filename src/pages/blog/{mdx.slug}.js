@@ -2,7 +2,7 @@ import { graphql } from 'gatsby'
 import '../../components/Nav.css'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
- 
+ import Chat from '../../components/Chat'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react'
 import Layout from '../../components/layout'
@@ -35,7 +35,9 @@ const BlogPost = ({data}) => {
         {body}
       </MDXRenderer>
       </div>
+      <Chat title={data.mdx.frontmatter.title} />
       </div>
+     
     </Layout>
   )
 }

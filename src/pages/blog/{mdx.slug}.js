@@ -2,6 +2,8 @@ import { graphql } from 'gatsby'
 import '../../components/Nav.css'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+ 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react'
 import Layout from '../../components/layout'
 const BlogPost = ({data}) => {
@@ -13,19 +15,22 @@ const BlogPost = ({data}) => {
   const image = getImage(data.mdx.frontmatter.hero_image)
   return (
     <Layout>
-      <div className="max-w-5xl  space-y-4 mx-auto py-6 md:py-12 overflow-x-hidden lg:overflow-x-visible"> 
-      <h1 className= " m-3 text-4xl font-bold">{data.mdx.frontmatter.title}</h1>
-
-      <p className="m-3" >{data.mdx.frontmatter.date}</p>
-     <h1 className='m-3'> {blogs.join(", ")}</h1>
-     <p className='m-3'>Article by <span class="font-bold"> {data.mdx.frontmatter.author} </span></p>
+      <div className="max-w-5xl  space-y-4 mx-auto   overflow-x-hidden lg:overflow-x-visible"> 
       <GatsbyImage
-     className="image  h-80 sm:w-full mb-10"
+     className="image  h-80 sm:w-full mb-3"
       image={image}
       alt= "Hero image"
- Name   />
-    
-      <div  className="leading-8 p-3 post text-black text-lg  sm:w-full  ">
+    />
+    <div className="font-bold text-3xl"> 
+      <h1 className= " m-3 text-5xl font-bold">{data.mdx.frontmatter.title}</h1>
+
+    <p className="m-3 text-sm text-gray-500" > <span className='font-bold text-gray-900 text-lg'>Published On: </span> {data.mdx.frontmatter.date}</p>
+     <p className='m-3 text-sm text-gray-500'> <span className='font-bold text-gray-900 text-lg'>Article by: </span> <span class="font-bold"> {data.mdx.frontmatter.author} </span></p>
+     <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
+     <h1 className='m-3  text-sm text-gray-500'> {blogs.join(", ")}</h1>
+
+     </div>
+      <div  className="leading-9 p-3 post text-black text-xl  sm:w-full w-50 mx-auto  ">
       <MDXRenderer  >
         {body}
       </MDXRenderer>

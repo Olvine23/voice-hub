@@ -30,7 +30,7 @@ const BlogPost = ({data}) => {
      <h1 className='m-3  text-sm text-gray-500'> {blogs.join(", ")}</h1>
 
      </div>
-      <div  className="leading-9 p-3 post text-black text-xl  sm:w-full w-50 mx-auto  ">
+      <div  className="leading-9 p-7  post text-black text-xl  sm:w-full w-50 mx-auto  ">
       <MDXRenderer  >
         {body}
       </MDXRenderer>

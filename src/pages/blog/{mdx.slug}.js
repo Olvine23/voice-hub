@@ -1,5 +1,5 @@
 import { graphql } from 'gatsby'
-import './post.css'
+import '../../components/Nav.css'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import * as React from 'react'
@@ -25,7 +25,7 @@ const BlogPost = ({data}) => {
       alt= "Hero image"
  Name   />
     
-      <div  className="leading-8 p-3 post text-gray-900 sm:w-full  ">
+      <div  className="leading-8 p-3 post text-black text-lg  sm:w-full  ">
       <MDXRenderer  >
         {body}
       </MDXRenderer>

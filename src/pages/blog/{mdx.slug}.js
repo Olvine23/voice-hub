@@ -40,16 +40,7 @@ const BlogPost = ({data}) => {
         {body}
       </MDXRenderer>
       </div>
-      <Disqus
-        config={{
-            /* Replace PAGE_URL with your post's canonical URL variable */
-            url:'voice-hub.netlify.app',
-            /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
-            identifier: 'PAGE_IDENTIFIER',
-            /* Replace PAGE_TITLE with the title of the page */
-            title: 'PAGE_TITLE',
-        }}
-    />
+     
       <Comments   />
        
       </div>

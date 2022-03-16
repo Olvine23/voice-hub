@@ -34,15 +34,20 @@ const BlogPost = ({data}) => {
      <p className='m-3 text-sm text-gray-500'> <span className='font-bold text-gray-900 text-lg'>Article by: </span> <span class="font-bold"> {data.mdx.frontmatter.author} </span></p>
      <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
      <h1 className='m-3  text-sm text-gray-500'> {blogs.join(", ")}</h1>
+     
 
      </div>
       <div  className="leading-9 p-7  post text-black text-lg  sm:w-full w-50 mx-auto  ">
       <MDXRenderer  >
         {body}
       </MDXRenderer>
+      <span className='font-bold'>Share:</span>
+     <div class="s9-widget-wrapper mb-3"></div>
+      <Commentsi />
+
       </div>
-      <S9comment />
-      {/* <Commentsi /> */}
+      
+      
      
       {/* <Comments   /> */}
        

@@ -14,6 +14,15 @@ module.exports = {
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
         {
+          resolve: "gatsby-plugin-social9-socialshare",
+          options: {
+            content:  "ae6befd886064f3f94d4ca40a52bef23",
+            async: true,
+            defer: true
+          }
+        },
+    
+        {
           resolve:  `gatsby-plugin-social9-comment`,
         },
         {

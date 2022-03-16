@@ -38,7 +38,7 @@ module.exports = {
             short_name: `writers-hub`,
             start_url: `/`,
             background_color: `#212121`,
-            theme_color: `#f39ca9`,
+            theme_color: `black`,
             display: `standalone`,
             icon: `src/images/logo.png`
           },

@@ -37,7 +37,7 @@ const BlogPost = ({data}) => {
      
 
      </div>
-      <div  className="leading-9 p-7  post text-black text-lg  sm:w-full w-50 mx-auto  ">
+      <div  className="leading-9 p-7  post text-black text-xl  sm:w-full w-50 mx-auto  ">
       <MDXRenderer  >
         {body}
       </MDXRenderer>

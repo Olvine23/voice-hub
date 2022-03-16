@@ -11,12 +11,13 @@ import * as React from 'react'
 import Layout from '../../components/layout'
 
 const BlogPost = ({data}) => {
-  
-
+   
   const {
     mdx: { body, frontmatter },
     graphCmsVoiceHub: { blogs },
     } = data;
+    let read_time = data.mdx.fields.readingTime.minutes
+    var time = Math.floor(read_time)
    
   const image = getImage(data.mdx.frontmatter.hero_image)
   return (
@@ -29,11 +30,11 @@ const BlogPost = ({data}) => {
     />
     <div className="font-bold text-3xl"> 
       <h1 className= " m-3 text-5xl font-bold">{data.mdx.frontmatter.title}</h1>
+       
 
     <p className="m-3 text-sm text-gray-500" > <span className='font-bold text-gray-900 text-lg'>Published On: </span> {data.mdx.frontmatter.date}</p>
      <p className='m-3 text-sm text-gray-500'> <span className='font-bold text-gray-900 text-lg'>Article by: </span> <span class="font-bold"> {data.mdx.frontmatter.author} </span></p>
-     <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
-     <h1 className='m-3  text-sm text-gray-500'> {blogs.join(", ")}</h1>
+     <p className='m-3 text-sm text-gray-500'> <span className='font-bold text-gray-900 text-lg'>Read Time: </span> <span class="font-bold"> {time} minute read </span></p>
      
 
      </div>
@@ -75,6 +76,14 @@ export const query = graphql`
             gatsbyImageData
             
           }
+        }
+      }
+      fields {
+        readingTime {
+          minutes
+          words
+          time
+          text
         }
       }
     }

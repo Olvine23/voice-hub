@@ -41,6 +41,7 @@
     "gatsby-plugin-social9-socialshare": "^1.0.6",
     "gatsby-remark-embed-video": "^3.1.1",
     "gatsby-remark-images": "^6.8.2",
+    "gatsby-remark-reading-time": "^1.1.0",
     "gatsby-remark-responsive-iframe": "^5.9.0",
     "gatsby-source-filesystem": "^4.8.2",
     "gatsby-source-graphcms": "^2.8.0",

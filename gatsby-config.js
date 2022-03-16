@@ -104,6 +104,7 @@ module.exports = {
                     iframeId: false, 
                   },
                 },
+                'gatsby-remark-reading-time',
                 {
                   resolve: `gatsby-remark-images`,
                   options: {

@@ -14,6 +14,12 @@ module.exports = {
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
         {
+          resolve: `gatsby-plugin-disqus`,
+          options: {
+              shortname: `voice-hub`
+          }
+      },
+        {
           resolve: 'gatsby-source-graphcms',
           options: {
           endpoint: process.env.GRAPHCMS_ENDPOINT,

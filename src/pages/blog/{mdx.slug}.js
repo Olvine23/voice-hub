@@ -2,11 +2,16 @@ import { graphql } from 'gatsby'
 import '../../components/Nav.css'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
- import Chat from '../../components/Chat'
+import Chat from '../../components/Chat'
+import Comments from '../../components/Comments'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Disqus } from 'gatsby-plugin-disqus';
 import * as React from 'react'
 import Layout from '../../components/layout'
+
 const BlogPost = ({data}) => {
+  
+
   const {
     mdx: { body, frontmatter },
     graphCmsVoiceHub: { blogs },
@@ -30,12 +35,23 @@ const BlogPost = ({data}) => {
      <h1 className='m-3  text-sm text-gray-500'> {blogs.join(", ")}</h1>
 
      </div>
-      <div  className="leading-9 p-7  post text-black text-xl  sm:w-full w-50 mx-auto  ">
+      <div  className="leading-9 p-7  post text-black text-lg  sm:w-full w-50 mx-auto  ">
       <MDXRenderer  >
         {body}
       </MDXRenderer>
       </div>
-      <Chat title={data.mdx.frontmatter.title} />
+      <Disqus
+        config={{
+            /* Replace PAGE_URL with your post's canonical URL variable */
+            url:'voice-hub.netlify.app',
+            /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+            identifier: 'PAGE_IDENTIFIER',
+            /* Replace PAGE_TITLE with the title of the page */
+            title: 'PAGE_TITLE',
+        }}
+    />
+      <Comments   />
+       
       </div>
      
     </Layout>
@@ -50,6 +66,7 @@ export const query = graphql`
 
     mdx(id: {eq: $id}) {
       body
+      id
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
@@ -57,6 +74,7 @@ export const query = graphql`
         hero_image {
           childImageSharp {
             gatsbyImageData
+            
           }
         }
       }

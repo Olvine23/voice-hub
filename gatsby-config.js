@@ -14,6 +14,9 @@ module.exports = {
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
         {
+          resolve:  `gatsby-plugin-social9-comment`,
+        },
+        {
           resolve: `gatsby-plugin-disqus`,
           options: {
               shortname: `voice-hub`

@@ -4,7 +4,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Chat from '../../components/Chat'
 import Commentsi from '../../components/Comment_two'
-
+import { S9comment } from 'gatsby-plugin-social9-comment'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Disqus } from 'gatsby-plugin-disqus';
 import * as React from 'react'
@@ -41,7 +41,8 @@ const BlogPost = ({data}) => {
         {body}
       </MDXRenderer>
       </div>
-      <Commentsi />
+      <S9comment />
+      {/* <Commentsi /> */}
      
       {/* <Comments   /> */}
        

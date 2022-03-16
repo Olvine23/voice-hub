@@ -3,7 +3,8 @@ import '../../components/Nav.css'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Chat from '../../components/Chat'
-import Comments from '../../components/Comments'
+import Commentsi from '../../components/Comment_two'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Disqus } from 'gatsby-plugin-disqus';
 import * as React from 'react'
@@ -40,16 +41,8 @@ const BlogPost = ({data}) => {
         {body}
       </MDXRenderer>
       </div>
-     <Disqus
-        config={{
-            /* Replace PAGE_URL with your post's canonical URL variable */
-            url:'voice-hub.netlify.app',
-            /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
-            identifier: 'PAGE_IDENTIFIER',
-            /* Replace PAGE_TITLE with the title of the page */
-            title: 'PAGE_TITLE',
-        }}
-    />
+      <Commentsi />
+     
       {/* <Comments   /> */}
        
       </div>

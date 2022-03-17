@@ -19,7 +19,7 @@ const BlogPage = ({data}) => {
          node => (
              <article key ={node.id}>
 
-<div className="px-4 flex mt-1 w-500  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
+<div className="px-4 flex mt-1    mx-auto max-w-xl max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
       <div className="  sm:max-w-sm sm:mx-auto ">
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
           <Link

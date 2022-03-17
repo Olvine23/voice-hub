@@ -29,6 +29,7 @@
     "firebase": "^9.6.8",
     "froala-editor": "^4.0.9",
     "gatsby": "^4.7.2",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-disqus": "^1.2.3",
     "gatsby-plugin-firebase": "^0.2.0-beta.4",
     "gatsby-plugin-fontawesome-css": "^1.2.0",

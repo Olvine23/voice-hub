@@ -19,8 +19,8 @@ const BlogPage = ({data}) => {
          node => (
              <article key ={node.id}>
 
-<div className="px-4 flex mt-1  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
-      <div className="  sm:max-w-sm sm:mx-auto lg:max-w-full">
+<div className="px-4 flex mt-1 w-500  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
+      <div className="  sm:max-w-sm sm:mx-auto ">
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
           <Link
            to= {`/blog/${node.slug}`}
@@ -52,8 +52,7 @@ const BlogPage = ({data}) => {
              <span className='font-bold'> {node.frontmatter.title}</span> -- <span className='text-sm'> {node.frontmatter.author} </span>
             </Link>
             <p className="mb-2 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+               {node.excerpt}
             </p>
             <Link
               to={`/blog/${node.slug}`}
@@ -81,6 +80,7 @@ const BlogPage = ({data}) => {
 export const query = graphql`
 query {
     
+ 
   allMdx(sort: {fields: frontmatter___date, order: DESC}) {
     nodes {
       frontmatter {
@@ -90,14 +90,14 @@ query {
         hero_image {
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
-            
+              src
             }
           }
         }
       }
       id
       slug
+      excerpt
     }
   }
 }

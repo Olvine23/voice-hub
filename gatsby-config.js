@@ -4,6 +4,7 @@ module.exports = {
 
         title: 'Voice Hub',
         siteUrl: `https://www.yourdomain.tld`,
+        description: 'A platform where artists refine their skills and connect',
     },
     plugins: [
 
@@ -13,6 +14,24 @@ module.exports = {
         "gatsby-plugin-image",
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
+    //     {
+    //       resolve: 'gatsby-plugin-feed',
+    //       options: {
+    //         // We'll get to this in a moment
+    //         query: `
+    //   {
+    //     site {
+    //       siteMetadata {
+    //         title
+    //         description
+    //         siteUrl
+    //         site_url: siteUrl
+    //       }
+    //     }
+    //   }
+    // `,
+    //       }
+    //     },
         {
           resolve: "gatsby-plugin-social9-socialshare",
           options: {

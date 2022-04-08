@@ -1,9 +1,9 @@
 @font-face {
     font-family:'mine' ;
-    src: url('../styles/Futura\ Book\ font.ttf');
+    src: url('../styles/Rubik-VariableFont_wght.ttf');
 }
 *{
-    font-family: 'mine';
+    font-family:'mine'
 }
 .logo{
     height:120px;

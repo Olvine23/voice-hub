@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+a{
+    text-decoration:black;
+    color: black;
+    text-transform: uppercase;
+    margin-right: 10px;
+
+}
+li{
+    list-style-type:none;
+}
+.nav ul{
+    margin-left: 100px;
+    margin-top: 20px;
+    display:flex;
+    color:red;
+    
+}
+.nav{
+    float: right;
+}

@@ -44,7 +44,7 @@ const BlogPost = ({data}) => {
       </MDXRenderer>
       <span className='font-bold'>Share:</span>
      <div class="s9-widget-wrapper mb-3"></div>
-      <Commentsi />
+      <Disqus />
 
       </div>
       
